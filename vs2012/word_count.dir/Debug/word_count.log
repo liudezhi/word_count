@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/6/7 0:14:14。
+     1>项目“F:\projects\C\word_count\vs2012\word_count.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/projects/C/word_count/CMakeLists.txt
+         CMake does not need to re-run because F:\projects\C\word_count\vs2012\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IF:\projects\C\word_count\.\core\include /IF:\projects\C\word_count\.\core\get_word\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"word_count.dir\Debug\\" /Fd"word_count.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt F:\projects\C\word_count\main.c
+         main.c
+     1>F:\projects\C\word_count\main.c(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\projects\C\word_count\vs2012\bin\Debug\word_count.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\projects\C\word_count\vs2012\lib\Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib manage.lib get_word.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/projects/C/word_count/vs2012/bin/Debug/word_count.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/projects/C/word_count/vs2012/bin/Debug/word_count.lib" /MACHINE:X64  /machine:x64 word_count.dir\Debug\main.obj
+         word_count.vcxproj -> F:\projects\C\word_count\vs2012\bin\Debug\word_count.exe
+     1>已完成生成项目“F:\projects\C\word_count\vs2012\word_count.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10

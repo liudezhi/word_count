@@ -10,6 +10,8 @@ int main(int argc, char **argv){
 	char buf[WORD_LEN_MAX];
 	FILE *fp;
 
+	printf("begin\n");
+
 	if(argc ==1){
 		fp = stdin;
 	}else{

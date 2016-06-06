@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/6/7 0:13:40。
+     1>项目“F:\projects\C\word_count\vs2012\core\get_word.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/projects/C/word_count/core/CMakeLists.txt
+         CMake does not need to re-run because F:\projects\C\word_count\vs2012\core\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IF:\projects\C\word_count\core\.\include /IF:\projects\C\word_count\core\.\array\include /IF:\projects\C\word_count\core\.\get_word\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"get_word.dir\Debug\\" /Fd"get_word.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt F:\projects\C\word_count\core\get_word\src\get_word.c
+         get_word.c
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"F:\projects\C\word_count\vs2012\lib\Debug\get_word.lib" /NOLOGO /MACHINE:X64  /machine:x64 get_word.dir\Debug\get_word.obj
+         get_word.vcxproj -> F:\projects\C\word_count\vs2012\lib\Debug\get_word.lib
+     1>已完成生成项目“F:\projects\C\word_count\vs2012\core\get_word.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.84

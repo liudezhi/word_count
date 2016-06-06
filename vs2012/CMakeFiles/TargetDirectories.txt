@@ -1,0 +1,5 @@
+F:/projects/C/word_count/vs2012/CMakeFiles/word_count.dir
+F:/projects/C/word_count/vs2012/CMakeFiles/ALL_BUILD.dir
+F:/projects/C/word_count/vs2012/CMakeFiles/ZERO_CHECK.dir
+F:/projects/C/word_count/vs2012/core/CMakeFiles/manage.dir
+F:/projects/C/word_count/vs2012/core/CMakeFiles/get_word.dir
