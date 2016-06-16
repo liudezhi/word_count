@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include "word_manage_p.h"
+
+/**/
+void word_finalize(void){
+	Word_T *temp;
+
+	while(word_header != NULL){
+		temp = word_header;
+		word_header = word_header->next;
+
+		free(temp->name);
+		free(temp);
+	}
+}

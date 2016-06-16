@@ -1,11 +1,17 @@
 SET(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 
-INCLUDE_DIRECTORIES(./include ./array/include ./get_word/include)
-AUX_SOURCE_DIRECTORY(./array/src ARRAY_LIB_CPP)
+#INCLUDE_DIRECTORIES(./include ./array/include ./get_word/include)
+INCLUDE_DIRECTORIES(./include ./list/include ./get_word/include)
+
+#AUX_SOURCE_DIRECTORY(./array/src ARRAY_LIB_CPP)
+AUX_SOURCE_DIRECTORY(./list/src LIST_LIB_CPP)
+
 AUX_SOURCE_DIRECTORY(./get_word/src GETWORD_LIB_CPP)
 #ADD_LIBRARY(manage SHARED ${ARRAY_LIB_CPP})
 #ADD_LIBRARY(get_word SHARED ${GETWORD_LIB_CPP})
 
-ADD_LIBRARY(manage STATIC ${ARRAY_LIB_CPP})
+#ADD_LIBRARY(manage STATIC ${ARRAY_LIB_CPP})
+ADD_LIBRARY(manage STATIC ${LIST_LIB_CPP})
+
 ADD_LIBRARY(get_word STATIC ${GETWORD_LIB_CPP})
 

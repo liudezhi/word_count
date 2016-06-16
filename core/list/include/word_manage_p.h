@@ -12,4 +12,4 @@ typedef struct Word_tag{
 extern Word_T *word_header;
 
 
-#ENDIF /* WORD_MANAGE_P_H_INCLUDED */
+#endif /* WORD_MANAGE_P_H_INCLUDED */
